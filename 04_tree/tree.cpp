@@ -156,7 +156,6 @@ int PostOrderGetHeight(BinTree BT) {
     return 0;
 }
 
-
 /**
  * 二叉搜索树的查找操作Find
  * @param x
@@ -264,4 +263,5 @@ BinTree Delete(ElementType X, BinTree BST) {
     }
     return BST;
 }
+
 
